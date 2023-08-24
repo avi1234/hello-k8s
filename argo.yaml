@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL:
+    repoURL: git@github.com:avi1234/hello-k8s.git
     targetRevision: HEAD
     path: argo_files
   destination:
