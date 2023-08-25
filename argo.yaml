@@ -11,7 +11,7 @@ spec:
     path: argo_files
   destination:
     server: https://kubernetes.default.svc
-    namespace: argoapp
+    namespace: webapp
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
